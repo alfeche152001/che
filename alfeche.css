@@ -55,6 +55,9 @@ section {
 
  #services{
 	background-image: url('black.gif');
+   height: 100vh;
+   background-size: cover;
+ }
  #about{
     background: var(--bg1);
  }
