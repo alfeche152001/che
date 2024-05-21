@@ -101,7 +101,17 @@ section {
  .card:hover .btn {
     color:rgb(239, 119, 250);
  }
+.reviews{
+   background-color: var(--bg3);
+   padding: 30px;
 
+}
+.reviews img{
+   width: 65px;
+    border-radius: 100px;
+    height: 65px;
+
+}
  .testimonials {
     background-color: var(--bg3);
     padding: 30px;
