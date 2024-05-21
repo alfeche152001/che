@@ -21,13 +21,13 @@ section {
 }
 
 #banner {
-    background: url('https://img.freepik.com/free-photo/photo-frame-shopping-trolleys-packets-labels_23-2147961858.jpg?w=996&t=st=1710736171~exp=1710736771~hmac=88feb71a74598af11985bcbbb88c3d1a09c161c7b1faa66540927182235881dd');
+    background: url('eyebrow.jpg');
     height: 100vh;
     background-size: cover;
 }
 
 .navbar {
-    background: linear-gradient(to bottom, hsla(0, 52%, 25%, 0.829), rgba(191, 85, 85, 0.884));
+    background: linear-gradient(to bottom, hsla(293, 78%, 58%, 0.829), rgba(243, 178, 227, 0.884));
 }
 
 
@@ -61,7 +61,7 @@ section {
  }
 
  #cta{
-    background-image: url('https://img.freepik.com/free-photo/photo-frame-shopping-trolleys-packets-labels_23-2147961858.jpg?w=996&t=st=1710736171~exp=1710736771~hmac=88feb71a74598af11985bcbbb88c3d1a09c161c7b1faa66540927182235881dd');
+    background-image: url('eyebrow.jpg');
     position: relative;
     opacity: 0.90;
     background-position: top;
@@ -91,16 +91,16 @@ section {
  }
 
  .p-3{
-    background-color: rgb(242, 236, 79);
+    background-color: rgb(255, 51, 170);
  }
  .card:hover {
-    background-color: rgb(180, 53, 53);
+    background-color: rgb(231, 177, 215);
  }
 
  .card:hover .card-title,
  .card:hover .card-text,
  .card:hover .btn {
-    color:rgb(246, 250, 246);
+    color:rgb(239, 119, 250);
  }
 
  .testimonials {
