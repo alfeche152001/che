@@ -54,8 +54,7 @@ section {
  }
 
  #services{
-    background: var(--bg3);
- }
+	background-image: url('black.gif');
  #about{
     background: var(--bg1);
  }
