@@ -145,9 +145,9 @@ section {
 }
 
 .accordion-button{
-   background-color: #fffcfc;
+   background-color: #e270c6;
    border: none;
-   border-bottom: 1px solid #fffcfc;
+   border-bottom: 1px solid #3a023a;
    border-radius: 0;
    padding: 15px;
    font-size: 18px;
@@ -177,7 +177,7 @@ section {
 }
 /* hover effect for FAQ queston  */
 .accordion-button:hover {
-   background-color: var(--body);
+   background-color: linear-gradient(to bottom, hsla(293, 78%, 58%, 0.829), rgba(243, 178, 227, 0.884));
    color: var(--bg2);
 }
 
