@@ -1,195 +1,322 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio Website</title>
-	<!---custom css link--->
-	<link rel="stylesheet" type="text/css" href="alfeche.css">
-
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./PSIT-01/CSS/style.css">
 
 </head>
+
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./PSIT-01/Images/logo-0005.webp" alt="Logo" height="60px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#banner">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#category">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Testimonial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#appointment">Appointment</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-	<!---header--->
-	<header>
-		<a href="#" class="logo"><img src="img/pink.jpg"></a>
-		<div class="bx bx-menu" id="menu-icon"></div>
+    <!--banner-->
+    <div id="banner" class="banner d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-2 text-white fw-bold">Shoppe For All</h1>
+                    <p class="text-white"> Get Your Free Shipping For The Good Item
+                    </p>
+                    <a href="#work" class="btn btn-brand"> See My Item</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#portfolio">Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</header>
+    <!--About Section-->
+    <section id="about">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-lg-6">
+                    <img src="./PSIT-01/Images/stores-00103.webp">
+                </div>
+                <div class="col-lg-6">
+                    <h6 class="display-3 fw-bold text-white">About</h6>
+                    <h2 class="text-white ">Free Shipping to All and have a big Discount</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque
+                        possimus, quaerat soluta mollitia, illo repellendus ab delectus magnam provident praesentium
+                        quae similique dolore saepe doloribus dicta fuga!</p>
+                    <a href="#work" class="btn btn-brand"> See My Item</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!---home--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h4>Hola beautiful souls!</h4>
-			<h1>I'M <br>ALFE<span>CHE</span></h1>
-			<h3>A Make up Artist and I'm absolutely delighted to have you here.</h3>
-			<a href="img/sya.gif" class="btn">Watch Video</a>
-		</div>
-	</section>
+    <!--Services-->
+    <section id="services">
+        <div class="container">
+            <div class="pb-5 text-center">
+                <h3 class="text-dark">Services</h3>
+                <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, magnam inventore, adipisci voluptas
+                    assumenda dolorem est mollitia incidunt quisquam, expedita quos perferendis deserunt! Ipsum labore
+                    itaque quo unde, excepturi distinctio?</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="./PSIT-01/Images/market.png" class="card-img-top icon-box-img">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="./PSIT-01/Images/market.png" class="card-img-top icon-box-img">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3" style="width: 22rem;">
+                        <img src="./PSIT-01/Images/market.png" class="card-img-top icon-box-img">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-outline-brand">Go somewhere</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!---about--->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/IMG_20240423_203253.JPG">
-		</div>
-		<div class="about-text">
-			<h2>About Me</h2>
-			<p> My friends used to call me ALEX, taking Bachelor of Science in Information Technology in Central Philippines State University. This space is where I pour my heart and creativity into showcasing the wonderful world of beauty.
-				Indulge yourself as you wander through a curated collection of beauty delights. From luscious lipsticks to each product and project featured here embodies a passion for beauty in its purest form.
-				Whether you're a fellow beauty enthusiast, a potential collaborator, or someone simply seeking inspiration, I invite you to explore and immerse yourself in the magic of beauty. </p>
-			
-				<a href="" class="btn btn-brand">Contact Us</a>
-		</div>
-	</div>
-	
-		</div>
-	</section>
+    <!-- CTA -->
 
-	<!---portfolio--->
-	<div id="cta" class="cta d-flex align-items-center">
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>My Portfolio</h2>
-			<h4>Alfs Beauty Products</h4>
-		</div>
+    <div id="cta" class="cta d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="display-2 text-white fw-bold">Shoppe For All</h1>
+                    <p class="text-white"> Get Your Free Shipping For The Good Item
+                    </p>
+                    <a href="#work" class="btn btn-brand"> See My Item</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/F.gif">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>FOUNDATION</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>It is applied to the face and neck to create an even, uniform color to natural skin tone.</h3>
-				<a href="img/F.gif" class="btn btn-outlined-brand">$100</a>
-			</div>
+    <!-- Reviews -->
+    <section id="reviews">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="text-white display-3 fw-bold">Reviews</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, quibusdam consequuntur. Soluta incidunt ullam praesentium quae quam facere maiores vel deserunt saepe, molestiae magni voluptatibus? Porro perferendis, possimus minus commodi tenetur modi amet eligendi maiores vel minima provident saepe, vero eaque perspiciatis consequuntur deserunt in consectetur! Aliquid illum quidem cumque.</p>
+                </div>
+            </div>
 
-			<div class="row">
-				<img src="img/blush-index.gif">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>BLUSH ON</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>It is applied to the cheeks using a brush or fingers, and comes in both powder and cream form. </h3>
-				<a href="img/blush-index.gif" class="btn btn-outlined-brand">$98</a>
-			</div>
+            <!-- review cards -->
 
-			<div class="row">
-				<img src="img/eyeshadow-palette-range.webp">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>EYE SHADOW</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3> It is applied to the eyelids to enhance their appearance or create various aesthetic effects. </h3>
-				<a href="img/es.gif" class="btn btn-outlined-brand">$100</a>
-			</div>
+            <div class="row row-cols-lg-3">
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonials mt-4">
+                        <div class="d-flex">
+                            <img src="./PSIT-01/Images/profile-0015.webp" alt="">
+                            <div class="ms-2 mb-2">
+                                <h3>Client Name</h3>
+                                <p><a href="">@highlight</a></p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, aspernatur!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-			<div class="row">
-				<img src="img/sya.gif">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>LIPSTICK</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>It is used to color the lips and pplied to the lips to add color, texture, and sometimes hydration. </h3>
-				<a href="img/sya.gif" class="btn btn-outlined-brand">$175</a>
-			</div>
+    <!--FAQ-->
+<section id="faq">
+    <div class="container">
+        <div class="faq-section">
+            <h2 class="text-white" style="font-family: Times New Roman;">Frequently Asked Questions</h2>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Accordion Item #1
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam obcaecati voluptatem error ipsam, ipsa velit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Accordion Item #2
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam obcaecati voluptatem error ipsam, ipsa velit.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #3
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam obcaecati voluptatem error ipsam, ipsa velit.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
 
-			<div class="row">
-				<img src="img/b.webp">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>BRUSH</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>A tool with bristles, used for the application of makeup or face painting. </h3>
-				<a href="img/b.webp" class="btn btn-outlined-brand">$195</a>
-			</div>
+<!-- Footer -->
+<footer class="footer text-white" id="footer">
+    <div class="container">
+        <div class="row al">
+            <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                <a class="navbar-brand" href="">
+                    <img src="./assets/images/last-002.webp" alt="">
+                </a>
+                <h5 class="mt-4">About Us</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, iusto!</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-lg-start ps-lg-5 ps-0 text-center">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Service 1</a></li>
+                    <li><a href="#">Service 2</a></li>
+                    <li><a href="#">Service 3</a></li>
+                    <li><a href="#">Service 4</a></li>
+                    <li><a href="#">Service 5</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                <h5>Contact Us</h5>
+                <p>123 Street Name, <br>City, Country</p>
+                <p>Email: example@example.com <br>Phone: +1029474</p>
+            </div>
+            <div class="col-md-3 col-sm-6 text-lg-start text-center">
+                <h5>Newsletter</h5>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" style="border-radius: 1px;" placeholder="'Email" aria-label="email" aria-describedby="button-addon2">
+                    </div>
+                </form>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
 
-			<div class="row">
-				<img src="img/tarte-eyebrow-makeup-1606157932.gif">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>EYE BROW</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>It is used to enhance the appearance of the eyebrows.</h3>
-				<a href="img/tarte-eyebrow-makeup-1606157932.gif" class="btn btn-outlined-brand">$127</a>
-			</div>
-		</div>
-		</div>
-	</section>
+        </div>
+    </div>
 
-	<!---contact--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact Me</h2>
-			<h4>THANK YOU FOR VISITING!</h4>
-			<p> Thank you for exploring my beauty sanctuary. Your presence here means the world to me. Remember, beauty is about confidence and joy. If you ever feel the need to reconnect or continue our beauty conversation, I'm just a click away.</p>
-			<div class="contact-list">
-				<a href="https://www.facebook.com/profile.php?id=61552532152446"><i class='bx bxl-facebook' ></i></a>
-				<a href="https://www.instagram.com/alexalfeche?igsh=Mzlhc29vYnYyaWl6"><i class='bx bxl-instagram' ></i></a>
-				
-			</div>
-			</div>
-		</div>
-
-		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Name" required>
-				<input type="email" placeholder="Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
-			</form>
-		</div>
-	</section>
-
-	<div class="last-text">
-		<p>Alfeche2024</p>
-	</div>
-
-	<!---scroll-top--->
-	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
-
-	<script src="https://unpkg.com/scrollreveal"></script>
-
-	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
-
+</footer>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
 </html>
